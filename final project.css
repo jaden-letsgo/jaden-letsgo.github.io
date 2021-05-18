@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.grid {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns:repeat(4, 1fr);
+    
+}
+
+
+
+header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: cornsilk;
+    padding:1em;
+}
+nav {
+    grid-column: 1;
+    grid-row: 3/5;
+    background-color: antiquewhite;
+    padding:1em;
+}
+main {
+    grid-column: 2/4;
+    grid-row: 3/5;
+    background-color: antiquewhite;
+    padding:1em;
+}
+footer {
+    grid-column: 1/4;
+    grid-row: 6;
+    background-color: cornsilk;
+    padding:1em;
+}
